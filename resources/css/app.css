@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply
+}
+
+.btn-lg{
+    @apply text-lg
+}
+.btn-sm{
+    @apply text-sm
+}
+.btn-info{
+    @apply bg-sky-500 text-white
+}
+.btn-primary{
+    @apply bg-blue-700 text-white
+}
+.btn-light{
+    @apply bg-white text-gray-900
+}
+.btn-warning{
+    @apply bg-amber-600 text-white
+}
+.btn-success{
+    @apply bg-emerald-800 text-white
+}
+.btn-dark{
+    @apply bg-gray-800 text-white
+}
+.btn-danger{
+    @apply bg-red-700 text-white
+}
